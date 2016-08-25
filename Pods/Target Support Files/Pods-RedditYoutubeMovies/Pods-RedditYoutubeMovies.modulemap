@@ -1,0 +1,6 @@
+framework module Pods_RedditYoutubeMovies {
+  umbrella header "Pods-RedditYoutubeMovies-umbrella.h"
+
+  export *
+  module * { export * }
+}
