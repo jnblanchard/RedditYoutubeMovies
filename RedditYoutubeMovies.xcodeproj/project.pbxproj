@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE2D7711D6F683800103D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7701D6F683800103D69 /* main.m */; };
+		ACE2D7741D6F683800103D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7731D6F683800103D69 /* AppDelegate.m */; };
+		ACE2D7771D6F683800103D69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7761D6F683800103D69 /* ViewController.m */; };
+		ACE2D77A1D6F683800103D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D7781D6F683800103D69 /* Main.storyboard */; };
+		ACE2D77C1D6F683800103D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D77B1D6F683800103D69 /* Assets.xcassets */; };
+		ACE2D77F1D6F683800103D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D77D1D6F683800103D69 /* LaunchScreen.storyboard */; };
+		ACE2D78A1D6F683800103D69 /* RedditYoutubeMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7891D6F683800103D69 /* RedditYoutubeMoviesTests.m */; };
+		ACE2D7951D6F683800103D69 /* RedditYoutubeMoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7941D6F683800103D69 /* RedditYoutubeMoviesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE2D7861D6F683800103D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE2D7641D6F683800103D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE2D76B1D6F683800103D69;
+			remoteInfo = RedditYoutubeMovies;
+		};
+		ACE2D7911D6F683800103D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE2D7641D6F683800103D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE2D76B1D6F683800103D69;
+			remoteInfo = RedditYoutubeMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE2D76C1D6F683800103D69 /* RedditYoutubeMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditYoutubeMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE2D7701D6F683800103D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACE2D7721D6F683800103D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACE2D7731D6F683800103D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACE2D7751D6F683800103D69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACE2D7761D6F683800103D69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACE2D7791D6F683800103D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE2D77B1D6F683800103D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE2D77E1D6F683800103D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE2D7801D6F683800103D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE2D7851D6F683800103D69 /* RedditYoutubeMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditYoutubeMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE2D7891D6F683800103D69 /* RedditYoutubeMoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditYoutubeMoviesTests.m; sourceTree = "<group>"; };
+		ACE2D78B1D6F683800103D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE2D7901D6F683800103D69 /* RedditYoutubeMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditYoutubeMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE2D7941D6F683800103D69 /* RedditYoutubeMoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditYoutubeMoviesUITests.m; sourceTree = "<group>"; };
+		ACE2D7961D6F683800103D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE2D7691D6F683800103D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE2D7821D6F683800103D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE2D78D1D6F683800103D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE2D7631D6F683800103D69 = {
+			isa = PBXGroup;
+			children = (
+				ACE2D76E1D6F683800103D69 /* RedditYoutubeMovies */,
+				ACE2D7881D6F683800103D69 /* RedditYoutubeMoviesTests */,
+				ACE2D7931D6F683800103D69 /* RedditYoutubeMoviesUITests */,
+				ACE2D76D1D6F683800103D69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE2D76D1D6F683800103D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D76C1D6F683800103D69 /* RedditYoutubeMovies.app */,
+				ACE2D7851D6F683800103D69 /* RedditYoutubeMoviesTests.xctest */,
+				ACE2D7901D6F683800103D69 /* RedditYoutubeMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE2D76E1D6F683800103D69 /* RedditYoutubeMovies */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D7721D6F683800103D69 /* AppDelegate.h */,
+				ACE2D7731D6F683800103D69 /* AppDelegate.m */,
+				ACE2D7751D6F683800103D69 /* ViewController.h */,
+				ACE2D7761D6F683800103D69 /* ViewController.m */,
+				ACE2D7781D6F683800103D69 /* Main.storyboard */,
+				ACE2D77B1D6F683800103D69 /* Assets.xcassets */,
+				ACE2D77D1D6F683800103D69 /* LaunchScreen.storyboard */,
+				ACE2D7801D6F683800103D69 /* Info.plist */,
+				ACE2D76F1D6F683800103D69 /* Supporting Files */,
+			);
+			path = RedditYoutubeMovies;
+			sourceTree = "<group>";
+		};
+		ACE2D76F1D6F683800103D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D7701D6F683800103D69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE2D7881D6F683800103D69 /* RedditYoutubeMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D7891D6F683800103D69 /* RedditYoutubeMoviesTests.m */,
+				ACE2D78B1D6F683800103D69 /* Info.plist */,
+			);
+			path = RedditYoutubeMoviesTests;
+			sourceTree = "<group>";
+		};
+		ACE2D7931D6F683800103D69 /* RedditYoutubeMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D7941D6F683800103D69 /* RedditYoutubeMoviesUITests.m */,
+				ACE2D7961D6F683800103D69 /* Info.plist */,
+			);
+			path = RedditYoutubeMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE2D76B1D6F683800103D69 /* RedditYoutubeMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE2D7991D6F683800103D69 /* Build configuration list for PBXNativeTarget "RedditYoutubeMovies" */;
+			buildPhases = (
+				ACE2D7681D6F683800103D69 /* Sources */,
+				ACE2D7691D6F683800103D69 /* Frameworks */,
+				ACE2D76A1D6F683800103D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedditYoutubeMovies;
+			productName = RedditYoutubeMovies;
+			productReference = ACE2D76C1D6F683800103D69 /* RedditYoutubeMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE2D7841D6F683800103D69 /* RedditYoutubeMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE2D79C1D6F683800103D69 /* Build configuration list for PBXNativeTarget "RedditYoutubeMoviesTests" */;
+			buildPhases = (
+				ACE2D7811D6F683800103D69 /* Sources */,
+				ACE2D7821D6F683800103D69 /* Frameworks */,
+				ACE2D7831D6F683800103D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE2D7871D6F683800103D69 /* PBXTargetDependency */,
+			);
+			name = RedditYoutubeMoviesTests;
+			productName = RedditYoutubeMoviesTests;
+			productReference = ACE2D7851D6F683800103D69 /* RedditYoutubeMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACE2D78F1D6F683800103D69 /* RedditYoutubeMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE2D79F1D6F683800103D69 /* Build configuration list for PBXNativeTarget "RedditYoutubeMoviesUITests" */;
+			buildPhases = (
+				ACE2D78C1D6F683800103D69 /* Sources */,
+				ACE2D78D1D6F683800103D69 /* Frameworks */,
+				ACE2D78E1D6F683800103D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE2D7921D6F683800103D69 /* PBXTargetDependency */,
+			);
+			name = RedditYoutubeMoviesUITests;
+			productName = RedditYoutubeMoviesUITests;
+			productReference = ACE2D7901D6F683800103D69 /* RedditYoutubeMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE2D7641D6F683800103D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John N Blanchard";
+				TargetAttributes = {
+					ACE2D76B1D6F683800103D69 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ACE2D7841D6F683800103D69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ACE2D76B1D6F683800103D69;
+					};
+					ACE2D78F1D6F683800103D69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ACE2D76B1D6F683800103D69;
+					};
+				};
+			};
+			buildConfigurationList = ACE2D7671D6F683800103D69 /* Build configuration list for PBXProject "RedditYoutubeMovies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE2D7631D6F683800103D69;
+			productRefGroup = ACE2D76D1D6F683800103D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE2D76B1D6F683800103D69 /* RedditYoutubeMovies */,
+				ACE2D7841D6F683800103D69 /* RedditYoutubeMoviesTests */,
+				ACE2D78F1D6F683800103D69 /* RedditYoutubeMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE2D76A1D6F683800103D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE2D77F1D6F683800103D69 /* LaunchScreen.storyboard in Resources */,
+				ACE2D77C1D6F683800103D69 /* Assets.xcassets in Resources */,
+				ACE2D77A1D6F683800103D69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE2D7831D6F683800103D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE2D78E1D6F683800103D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE2D7681D6F683800103D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE2D7771D6F683800103D69 /* ViewController.m in Sources */,
+				ACE2D7741D6F683800103D69 /* AppDelegate.m in Sources */,
+				ACE2D7711D6F683800103D69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE2D7811D6F683800103D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE2D78A1D6F683800103D69 /* RedditYoutubeMoviesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE2D78C1D6F683800103D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE2D7951D6F683800103D69 /* RedditYoutubeMoviesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE2D7871D6F683800103D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE2D76B1D6F683800103D69 /* RedditYoutubeMovies */;
+			targetProxy = ACE2D7861D6F683800103D69 /* PBXContainerItemProxy */;
+		};
+		ACE2D7921D6F683800103D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE2D76B1D6F683800103D69 /* RedditYoutubeMovies */;
+			targetProxy = ACE2D7911D6F683800103D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE2D7781D6F683800103D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE2D7791D6F683800103D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE2D77D1D6F683800103D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE2D77E1D6F683800103D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE2D7971D6F683800103D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE2D7981D6F683800103D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE2D79A1D6F683800103D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedditYoutubeMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE2D79B1D6F683800103D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedditYoutubeMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACE2D79D1D6F683800103D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedditYoutubeMoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedditYoutubeMovies.app/RedditYoutubeMovies";
+			};
+			name = Debug;
+		};
+		ACE2D79E1D6F683800103D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedditYoutubeMoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedditYoutubeMovies.app/RedditYoutubeMovies";
+			};
+			name = Release;
+		};
+		ACE2D7A01D6F683800103D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedditYoutubeMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedditYoutubeMovies;
+			};
+			name = Debug;
+		};
+		ACE2D7A11D6F683800103D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedditYoutubeMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedditYoutubeMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE2D7671D6F683800103D69 /* Build configuration list for PBXProject "RedditYoutubeMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE2D7971D6F683800103D69 /* Debug */,
+				ACE2D7981D6F683800103D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE2D7991D6F683800103D69 /* Build configuration list for PBXNativeTarget "RedditYoutubeMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE2D79A1D6F683800103D69 /* Debug */,
+				ACE2D79B1D6F683800103D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE2D79C1D6F683800103D69 /* Build configuration list for PBXNativeTarget "RedditYoutubeMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE2D79D1D6F683800103D69 /* Debug */,
+				ACE2D79E1D6F683800103D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE2D79F1D6F683800103D69 /* Build configuration list for PBXNativeTarget "RedditYoutubeMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE2D7A01D6F683800103D69 /* Debug */,
+				ACE2D7A11D6F683800103D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE2D7641D6F683800103D69 /* Project object */;
+}
