@@ -19,7 +19,6 @@
 		ACE2D7A81D6F685F00103D69 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7A31D6F685F00103D69 /* TFHpple.m */; };
 		ACE2D7A91D6F685F00103D69 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7A51D6F685F00103D69 /* TFHppleElement.m */; };
 		ACE2D7AA1D6F685F00103D69 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7A71D6F685F00103D69 /* XPathQuery.m */; };
-		ACE2D7AD1D6F68F100103D69 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE2D7AC1D6F68F100103D69 /* libxml2.tbd */; };
 		ACE2D7B01D6F6B7D00103D69 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7AF1D6F6B7D00103D69 /* YTPlayerView.m */; };
 		ACE2D7B41D6F73F800103D69 /* YoutubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7B31D6F73F800103D69 /* YoutubePlayerViewController.m */; };
 /* End PBXBuildFile section */
@@ -65,7 +64,6 @@
 		ACE2D7A51D6F685F00103D69 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		ACE2D7A61D6F685F00103D69 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		ACE2D7A71D6F685F00103D69 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
-		ACE2D7AC1D6F68F100103D69 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		ACE2D7AE1D6F6B7D00103D69 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		ACE2D7AF1D6F6B7D00103D69 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		ACE2D7B21D6F73F800103D69 /* YoutubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubePlayerViewController.h; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE2D7AD1D6F68F100103D69 /* libxml2.tbd in Frameworks */,
 				1CE43D89E6EC53B0F2198165 /* Pods_RedditYoutubeMovies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +110,6 @@
 		ACE2D7631D6F683800103D69 = {
 			isa = PBXGroup;
 			children = (
-				ACE2D7AC1D6F68F100103D69 /* libxml2.tbd */,
 				ACE2D76E1D6F683800103D69 /* RedditYoutubeMovies */,
 				ACE2D7881D6F683800103D69 /* RedditYoutubeMoviesTests */,
 				ACE2D7931D6F683800103D69 /* RedditYoutubeMoviesUITests */,
@@ -541,7 +537,7 @@
 			baseConfigurationReference = FFC3BF1FDB89B12F1E3DB72D /* Pods-RedditYoutubeMovies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RedditYoutubeMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMovies;
@@ -554,7 +550,7 @@
 			baseConfigurationReference = FD0F3DEEF649BCB1CE6AB0D4 /* Pods-RedditYoutubeMovies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RedditYoutubeMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMovies;
