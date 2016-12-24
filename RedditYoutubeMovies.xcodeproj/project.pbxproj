@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1CE43D89E6EC53B0F2198165 /* Pods_RedditYoutubeMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECC69145DFCA1A43F204876 /* Pods_RedditYoutubeMovies.framework */; };
+		369603751E0DD7A1004641C2 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 369603741E0DD7A1004641C2 /* libxml2.2.tbd */; };
+		369603781E0DE26C004641C2 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 369603771E0DE26C004641C2 /* InfoCell.m */; };
 		ACE2D7711D6F683800103D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7701D6F683800103D69 /* main.m */; };
 		ACE2D7741D6F683800103D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7731D6F683800103D69 /* AppDelegate.m */; };
 		ACE2D7771D6F683800103D69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D7761D6F683800103D69 /* ViewController.m */; };
@@ -41,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		369603741E0DD7A1004641C2 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		369603761E0DE26C004641C2 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoCell.h; sourceTree = "<group>"; };
+		369603771E0DE26C004641C2 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoCell.m; sourceTree = "<group>"; };
 		8ECC69145DFCA1A43F204876 /* Pods_RedditYoutubeMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedditYoutubeMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE2D76C1D6F683800103D69 /* RedditYoutubeMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditYoutubeMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE2D7701D6F683800103D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369603751E0DD7A1004641C2 /* libxml2.2.tbd in Frameworks */,
 				1CE43D89E6EC53B0F2198165 /* Pods_RedditYoutubeMovies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +151,8 @@
 				ACE2D77D1D6F683800103D69 /* LaunchScreen.storyboard */,
 				ACE2D7801D6F683800103D69 /* Info.plist */,
 				ACE2D76F1D6F683800103D69 /* Supporting Files */,
+				369603761E0DE26C004641C2 /* InfoCell.h */,
+				369603771E0DE26C004641C2 /* InfoCell.m */,
 			);
 			path = RedditYoutubeMovies;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 		EAAEBA2A4A6EE8EE35EFA8F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				369603741E0DD7A1004641C2 /* libxml2.2.tbd */,
 				8ECC69145DFCA1A43F204876 /* Pods_RedditYoutubeMovies.framework */,
 			);
 			name = Frameworks;
@@ -275,6 +284,7 @@
 				TargetAttributes = {
 					ACE2D76B1D6F683800103D69 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YUQNSJQ974;
 					};
 					ACE2D7841D6F683800103D69 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -388,6 +398,7 @@
 			files = (
 				ACE2D7771D6F683800103D69 /* ViewController.m in Sources */,
 				ACE2D7B41D6F73F800103D69 /* YoutubePlayerViewController.m in Sources */,
+				369603781E0DE26C004641C2 /* InfoCell.m in Sources */,
 				ACE2D7741D6F683800103D69 /* AppDelegate.m in Sources */,
 				ACE2D7711D6F683800103D69 /* main.m in Sources */,
 				ACE2D7A81D6F685F00103D69 /* TFHpple.m in Sources */,
@@ -537,7 +548,8 @@
 			baseConfigurationReference = FFC3BF1FDB89B12F1E3DB72D /* Pods-RedditYoutubeMovies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "";
+				DEVELOPMENT_TEAM = YUQNSJQ974;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = RedditYoutubeMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMovies;
@@ -550,7 +562,8 @@
 			baseConfigurationReference = FD0F3DEEF649BCB1CE6AB0D4 /* Pods-RedditYoutubeMovies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "";
+				DEVELOPMENT_TEAM = YUQNSJQ974;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = RedditYoutubeMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.RedditYoutubeMovies;
