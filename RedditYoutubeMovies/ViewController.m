@@ -11,7 +11,7 @@
 #import "TFHpple.h"
 #import "YoutubePlayerViewController.h"
 
-#define urlRedditString @"https://www.reddit.com/r/fullmoviesonyoutube"
+#define urlRedditString @"https://www.reddit.com/r/fullmoviesonyoutube/"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -28,20 +28,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     TFHpple* redditParser = [TFHpple hppleWithHTMLData:[NSData dataWithContentsOfURL:[NSURL URLWithString:urlRedditString]]];
-    NSMutableArray* array = [NSMutableArray arrayWithArray:[redditParser searchWithXPathQuery:@"//p[@class=\"title\"]"]];
+    NSMutableArray* array = [NSMutableArray arrayWithArray:[redditParser searchWithXPathQuery:@"//a[@class=\"SQnoC3ObvgnGjWt90zD9Z\"]"]];
     
     self.movieArray = [NSMutableArray new];
     
-    [array removeObjectAtIndex:0];
+    //[array removeObjectAtIndex:0];
     for (TFHppleElement* element in array)
     {
         if ([[[element.children objectAtIndex:1] firstChild] isKindOfClass:[TFHppleElement class]])
         {
             TFHppleElement* layerOne = [element.children objectAtIndex:1];
 //            NSLog(@"%@", [layerOne.attributes objectForKey:@"href"]);
-            NSString* fullURL = [layerOne.attributes objectForKey:@"href"];
-            TFHppleElement* layerTwo = [layerOne firstChild];
-            NSString* title = layerTwo.content;
+            NSString* fullURL = [element.attributes objectForKey:@"href"];;
+            NSString* title = layerOne.content;
             NSArray* movie = @[title, [self parseStringForMovieTitle:fullURL]];
             [self.movieArray addObject:movie];
         }
