@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     TFHpple* redditParser = [TFHpple hppleWithHTMLData:[NSData dataWithContentsOfURL:[NSURL URLWithString:urlRedditString]]];
-    NSMutableArray* titleArray = [NSMutableArray arrayWithArray:[redditParser searchWithXPathQuery:@"//p[@class=\"title\"]"]];
+    NSMutableArray* titleArray = [NSMutableArray arrayWithArray:[redditParser searchWithXPathQuery:@"//a[@class=\"SQnoC3ObvgnGjWt90zD9Z\"]"]];
 }
 
 - (BOOL)prefersStatusBarHidden
